@@ -110,11 +110,13 @@ class App extends React.Component {
 
 
     onEditSubmit(NewName , id){
-            const  ToDoList =  this.state.ToDoList.map(item =>{
+
+          
+          const  ToDoList =  this.state.ToDoList.map(item =>{
           if(item.id === id){
             fetch(`https://goldencorp-todo-api.herokuapp.com/api/v1/todo/${id}` ,{  
               method: 'PUT' ,
-              body: JSON.stringify(item),  
+              body: JSON.stringify({title: NewName}),  
               headers:{
                 'Content-Type': 'application/json'
               }
