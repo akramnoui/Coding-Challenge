@@ -1,0 +1,10 @@
+.ListContainer {
+    height: auto;
+    width: 30%;
+    align-self: center;
+    justify-content: flex-end;
+    background-color: rgba(59, 60, 75, 0.7);
+    border-radius: 10px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }

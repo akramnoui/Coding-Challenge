@@ -1,0 +1,47 @@
+.ToDo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+ }
+  
+  .ToDo-action {
+    cursor: pointer;
+    justify-self: flex-end;
+    transition: color .25s;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white; /* Green */
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+  
+  .ToDo-action:hover {
+    color: rgba(265, 265, 265, .5);
+  }
+  .ToDo-Edit{
+    margin: 1rem;
+    background-color: white; /* Green */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .ToDo-information {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+  }
+.name{
+    margin-left: 1rem;
+    margin-right: 4rem;
+}
+  
+  
